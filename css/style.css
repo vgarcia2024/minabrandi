@@ -101,70 +101,70 @@ footer {
 }
 
 .yo-carita {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 5px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
 
 .yo-acostadita {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 5px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
 
 .trapito-mina {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 5px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
 
 .osito-mina {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 5px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
 
 .mordida-mano {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 5px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
 
 .mina-loca {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 5px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
 
 .abuela-mina {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    padding: 5px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+  flex-wrap: wrap;
 }
 
 section div {
-    border: 1px solid black;
-    padding: 6px;
+  border: 1px solid black;
+  padding: 6px;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .contenido-fotos,
@@ -179,7 +179,12 @@ img {
 @media (max-width: 900px) {
   .fotitos img {
     width: 33.33%; /* 3 imágenes por fila */
-    height: auto;  /* mantiene proporción */
+    height: auto; /* mantiene proporción */
   }
 }
 
+@media (max-width: 768px) {
+  .contenido {
+    padding: 0 15px;
+  }
+}
