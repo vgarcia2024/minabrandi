@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+body {
+  background-color: #333;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 2px solid #2e2b2b;
+}
+
+header img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+nav ul {
+  display: flex;
+  gap: 100px;
+}
+
+nav a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.contenido {
+  padding: 20px;
+}
+
+section article {
+  margin-bottom: 15px;
+}
+
+article h4 {
+  background-color: #2e2b2b;
+  padding: 4px;
+  border-radius: 4px 0;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.contenido li {
+  padding: 5px;
+}
+
+.contenido p {
+  padding: 5px;
+}
+
+footer {
+  margin-top: auto;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotitos img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.mama {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+}
+
+.patita {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 5px;
+}
+
+.contenido-fotos {
+    display: flex;
+    gap: 10px;
+}
+
+.yo-carita {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.yo-acostadita {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.trapito-mina {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.osito-mina {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.contenido-fotos2 {
+    display: flex;
+    gap: 10px;
+}
+
+.mordida-mano {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.mina-loca {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.abuela-mina {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+.contenido-fotos3 {
+    display: flex;
+    gap: 10px;
+}
+
+section div {
+    border: 1px solid black;
+    padding: 6px;
+}
+
