@@ -176,6 +176,16 @@ img {
   justify-content: center; /* centra en pantallas grandes y chicas */
 }
 
+.abuela-mina img {
+  transition: all 0.1s ease;
+}
+
+.abuela-mina img:hover {
+  width: 400px;
+  height: 400px;
+  transition-duration: 0.1s ease;
+}
+
 @media (max-width: 900px) {
   .fotitos img {
     width: 33.33%; /* 3 imágenes por fila */
