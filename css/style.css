@@ -88,6 +88,7 @@ footer {
   align-items: center;
   gap: 15px;
   padding: 5px;
+  flex-wrap: wrap;
 }
 
 .patita {
@@ -95,6 +96,7 @@ footer {
   align-items: center;
   gap: 15px;
   padding: 5px;
+  flex-wrap: wrap;
 }
 
 .contenido-fotos {
@@ -107,6 +109,7 @@ footer {
     align-items: center;
     gap: 15px;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .yo-acostadita {
@@ -114,6 +117,7 @@ footer {
     align-items: center;
     gap: 15px;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .trapito-mina {
@@ -121,6 +125,7 @@ footer {
     align-items: center;
     gap: 15px;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .osito-mina {
@@ -128,6 +133,7 @@ footer {
     align-items: center;
     gap: 15px;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .contenido-fotos2 {
@@ -140,6 +146,7 @@ footer {
     align-items: center;
     gap: 15px;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .mina-loca {
@@ -147,6 +154,7 @@ footer {
     align-items: center;
     gap: 15px;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .abuela-mina {
@@ -154,6 +162,7 @@ footer {
     align-items: center;
     gap: 15px;
     padding: 5px;
+    flex-wrap: wrap;
 }
 
 .contenido-fotos3 {
