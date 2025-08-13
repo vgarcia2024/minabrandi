@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100%;
 }
 
 header {
@@ -99,11 +100,6 @@ footer {
   flex-wrap: wrap;
 }
 
-.contenido-fotos {
-    display: flex;
-    gap: 10px;
-}
-
 .yo-carita {
     display: flex;
     align-items: center;
@@ -136,11 +132,6 @@ footer {
     flex-wrap: wrap;
 }
 
-.contenido-fotos2 {
-    display: flex;
-    gap: 10px;
-}
-
 .mordida-mano {
     display: flex;
     align-items: center;
@@ -165,11 +156,6 @@ footer {
     flex-wrap: wrap;
 }
 
-.contenido-fotos3 {
-    display: flex;
-    gap: 10px;
-}
-
 section div {
     border: 1px solid black;
     padding: 6px;
@@ -179,5 +165,21 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+}
+
+.contenido-fotos,
+.contenido-fotos2,
+.contenido-fotos3 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap; /* permite que los elementos bajen de línea */
+  justify-content: center; /* centra en pantallas grandes y chicas */
+}
+
+@media (max-width: 900px) {
+  .fotitos img {
+    width: 33.33%; /* 3 imágenes por fila */
+    height: auto;  /* mantiene proporción */
+  }
 }
 
